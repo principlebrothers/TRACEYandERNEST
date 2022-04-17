@@ -57,15 +57,27 @@ table{
     margin: 20px;
 }
 
-th, td{
-    border: 3px solid black;
+table, th, td{
+    border: 3px solid white;
+    border-collapse: collapse;
 }
 
 th{
-    background-color: gray;
     color: white;
     padding: 10px 5px;
     font-size: 22px;
+}
+
+#first_color{
+    background-color: rgb(109, 80, 8);
+}
+
+#sec_color{
+    background-color: rgb(44, 39, 11);
+}
+
+#third_color{
+    background-color: rgb(75, 64, 4);
 }
 
 td{
