@@ -25,11 +25,32 @@ header h1{
     text-align: center;
     background-color: gray;
     color: white;
+    text-shadow: 2px 2px 4px rgb(150, 39, 253);
     padding: 15px 10px;
     font-size: 32px;
     width: 500px;
     margin: auto;
-    border: 2px solid black;
+    /*border: 2px solid rgb(150, 39, 253);*/
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+img{
+    border-radius: 10%;
+    border: 5px solid white;
+    width:450px;
+    height:300px;
+    box-shadow: 10px 10px 5px rgb(62, 70, 73);
+    margin: 10px;
+}
+
+.quote{
+    text-align: center;
+    color: rgb(150, 39, 253);
 }
 
 table{
