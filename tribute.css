@@ -5,6 +5,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html{
+    background-color: white;
+}
+
+body{
+    margin: 0px 15%;
+    border: 2px solid white;
+    background-color: lightgrey;
+}
+
 header h1{
     text-align: center;
     background-color: gray;
