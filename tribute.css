@@ -93,6 +93,27 @@ p{
    color: black;
 }
 
+a{
+    text-align: center;
+    width: fit-content;
+    margin: 43%;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    border: 2px solid blue;
+    background-color: #999;
+    color: black;
+    transition: all 0.3s;
+}
+a:link, a:visited {
+    color: gold;
+    background-color: gray;
+}
+
 footer{
     position:relative;
    left: 0;
