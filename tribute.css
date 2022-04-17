@@ -124,3 +124,13 @@ footer{
    text-align: center;
    background:#999;
 }
+#navigation ul{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 3rem;
+    
+}
+#navigation li {
+    margin: 50px 150px 50px 90px;
+    
+}
